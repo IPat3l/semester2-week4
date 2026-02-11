@@ -2,19 +2,17 @@
 
 ## Compiling C source code
 
-Remember that you compile using gcc and should name the output file
+Remember that you compile source code using `gcc` and should name the output file
 
 `gcc myCode.c -o myCode`
 
 ## C libraries
 
-The `<stdio.h>` and `<stdlib.h>` libraries are included by default.
+Most of your code this week will require `<stdio.h>` and `<stdlib.h>` 
 
-For other libraries you must add further linking commands. 
+We will also introduce the string library `<string.h>`
 
-eg. for the math library `<math.h>` you have to add `-lm` to your compile command.
-
-`gcc myCode.c -o myCode -lm`
+If you are writing your own code remember to `#include` libraries.
 
 ## Executing C programs
 
@@ -25,3 +23,5 @@ To execute the program you use the executable file name
 `./myCode`
 
 Note: `./` tells the operating system to look in the current, local directory for the executable file.
+
+Remember to recompile the code after making changes so that the executable file is updated.

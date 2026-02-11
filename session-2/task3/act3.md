@@ -21,5 +21,9 @@ Implement a solution in Python and compare the code.
 Considering the examples from session 1 of this week choose one vector and one matrix task
 and modify the examples to use a command line argument that sets the size of the vector and matrix.
 
+- The command line argument can define the vector (or matrix) size N
+- Modify the code to dynamically allocate the vector or matrix
+- For good memory management deallocate memory at the end before exiting the program
+
 There are two example solutions provided in the repository for this session that you can use if you wish.
 

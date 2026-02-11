@@ -4,6 +4,7 @@
  * 1. concatenates all the command line arguments into one string
  * 2. searches for the first occurrence of a given character
  * eg. use "The quick brown fox" on the command line and locate 'k'
+ * Hint: argv is an array so you can use a simple for-loop
  * Hint: string library functions strcat() and strcspn() can be used
  */
 #include <stdio.h>
