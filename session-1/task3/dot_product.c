@@ -3,7 +3,7 @@
  * Dot product of 2 vectors
  */
 
- #include <stdio.h>
+#include <stdio.h>
 
  int main( void ) {
     int n = 5;
@@ -31,9 +31,10 @@
 
    for (int i = 0; i < n; i++)
    {
-      d += b[i];
+      d[i] += a[i] * b[i];
+      printf("%.2f\n", d[i]);
    }
-   printf("%.2f\n", d);
+
 
     // explicit deallocation of heap memory before exit */
     free(a);
