@@ -23,6 +23,18 @@
     print your final answer
     */
 
+   for (int i = 0; i < n; i++)
+   {
+      a[i] = i;
+      b[i] = i;
+   }
+
+   for (int i = 0; i < n; i++)
+   {
+      d += b[i];
+   }
+   printf("%.2f\n", d);
+
     // explicit deallocation of heap memory before exit */
     free(a);
     free(b);
